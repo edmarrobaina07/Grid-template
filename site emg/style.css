@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    height: 100vh;
+    width: auto;
+}
+
+nav {
+    background-image: url(./assets/top.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.title {
+    padding: 50px;
+    width: 40%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h2 {
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+span {
+    color: #2f934a;
+    font-weight: 500;
+}
+
+#text-1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#text-2 {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+.form {
+    background: rgb(253, 29, 52);
+    background: linear-gradient(90deg, rgba(253, 29, 52, 1) 23%, rgba(252, 176, 69, 1) 100%);
+    padding: 30px;
+    width: 33%;
+    border-radius: 7px;
+    margin: 20px 0 50px 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+:placeholder-shown {
+    padding: 20px;
+}
+
+.topo {
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    background: rgb(107, 149, 114);
+    background: linear-gradient(90deg, rgba(107, 149, 114, 1) 14%, rgba(47, 147, 74, 1) 100%);
+    color: #fff;
+}
+
+.se-1 {
+    background: rgb(253, 29, 52);
+    background: linear-gradient(90deg, rgba(253, 29, 52, 1) 23%, rgba(252, 176, 69, 1) 100%);
+    height: 300px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#text-3 {
+    margin: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.se-2 {
+    text-align: center;
+    padding: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.se-3 {
+    display: flex;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.images {
+    width: 90%;
+
+}
+
+.text-4 {
+    width: 90%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.se-4 {
+    display: flex;
+    margin: 50px;
+    background: rgb(253, 29, 52);
+    background: linear-gradient(90deg, rgba(253, 29, 52, 1) 23%, rgba(252, 176, 69, 1) 100%);
+    color: #fff;
+}
+
+.two-img {
+    width: 20%;
+}
+
+#text-5 {
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    background: rgb(107, 149, 114);
+    background: linear-gradient(90deg, rgba(107, 149, 114, 1) 14%, rgba(47, 147, 74, 1) 100%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer {
+    background: rgb(253, 29, 52);
+    background: linear-gradient(90deg, rgba(253, 29, 52, 1) 23%, rgba(252, 176, 69, 1) 100%);
+    color: #fff;
+}
+
+#foo {
+    padding: 20px;
+    margin: 50px;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 940px) { 
+    nav {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 700px) { 
+    nav {
+        height: 1100px;
+    }
+
+    .two-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    nav {
+        height: 800px;
+    }
+     .title {
+        width: 50%;   
+     }
+
+     .form {
+        width: 70%;
+     }
+
+     .topo {
+        width: 100%;
+     }
+
+     #text-1, #text-2 {
+        width: 300%;
+        
+     }
+
+    .se-1 {
+        height: 520px;
+        
+    }
+
+   #text-3 {
+    margin-bottom: 500px;
+   }
+
+    .se-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .se-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .two-img {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
+
+}
